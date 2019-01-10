@@ -8,7 +8,7 @@
 
 $transaktions   = getUserAktieOversigt($_SESSION['connection'], $_SESSION['user_id']);
 $formue         = getFormue($_SESSION['connection'],$_SESSION['navn'],$_SESSION['password']);
-
+echo "<h1>I AM IN CONTROL</h1>"
 echo "<br>------------------------------";
 
 echo "<br><br><table border='1'>";
